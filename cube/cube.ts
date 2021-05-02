@@ -122,18 +122,18 @@ function deg_to_rad(deg:number):number {
 // perform transforms
 // x' = x * cos(B) - y * sin(B)
 // y' = y * cos(B) + x * sin(B)
-function rotate_gz(rss:number, x:number, y:number):[number, number] {
-    // optimization
-    let cos_theta = Math.cos(rss);
-    let sin_theta = Math.sin(rss);
-    // subtract offset
-    x -= wo_x;
-    y -= wo_y;
-    // perform translation computation
-    let x_prime = (x * cos_theta - y * sin_theta) + wo_x;
-    let y_prime = (y * cos_theta + x * sin_theta) + wo_y;
-    return [ x_prime, y_prime ]
-}
+// function rotate_gz(rss:number, x:number, y:number):[number, number] {
+//     // optimization
+//     let cos_theta = Math.cos(rss);
+//     let sin_theta = Math.sin(rss);
+//     // subtract offset
+//     x -= wo_x;
+//     y -= wo_y;
+//     // perform translation computation
+//     let x_prime = (x * cos_theta - y * sin_theta) + wo_x;
+//     let y_prime = (y * cos_theta + x * sin_theta) + wo_y;
+//     return [ x_prime, y_prime ]
+// }
 
 function rotate_z(rss:number, node:Node):void {
     // optimization
