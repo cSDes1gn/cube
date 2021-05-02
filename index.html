@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <h1>Cube Rotation Demo</h1>
     <div class="dot" id="d1"></div>
     <div class="dot" id="d2"></div>
     <div class="dot" id="d3"></div>
@@ -14,10 +15,17 @@
     <div class="dot" id="d8"></div>
     <div class="dot" id="d9"></div>
     <div>
-      <button class="play">Rotate</button>
-      <input label="Rotation" placeholder="e.g. -180" id="target"></input>
+      <button class="play" id="rotate-x">Rotate X</button>
+      <input label="Rotation" placeholder="e.g. -180" id="input-x"></input>
     </div>
-    
+    <div>
+      <button class="play" id="rotate-y">Rotate Y</button>
+      <input label="Rotation" placeholder="e.g. -180" id="input-y"></input>
+    </div>
+    <div>
+      <button class="play" id="rotate-z">Rotate Z</button>
+      <input label="Rotation" placeholder="e.g. -180" id="input-z"></input>
+    </div>
   </body>
   <script src="cube/cube.ts"></script>
 </html>
