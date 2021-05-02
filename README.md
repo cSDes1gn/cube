@@ -19,10 +19,10 @@ npm run start
 
 ## Theory
 
-In the 2D (x,y) plane the goal is to represent translated coordinates (x',y') as a function of initial coordinates (x,y) at any angle <img src="https://render.githubusercontent.com/render/math?math=\color{gray}{\alpha}"> after some angular rotation  <img src="https://render.githubusercontent.com/render/math?math=\color{gray}{\beta}"><br>
+In the 2D (x,y) plane the goal is to represent translated coordinates (x',y') as a function of initial coordinates (x,y) at any angle <img src="https://render.githubusercontent.com/render/math?math=\color{gray}{\alpha}"> after some angular rotation  <img src="https://render.githubusercontent.com/render/math?math=\color{gray}{\beta}">:<br>
 
-### Forumulation
 ![img](docs/proof.png)
+### Forumulation
 We start with rotation about the z axis (xy plane). From the diagram we can write x and y as a function of the angle  <img src="https://render.githubusercontent.com/render/math?math=\color{gray}{\alpha}">:<br> 
 <img src="https://render.githubusercontent.com/render/math?math=\color{gray}{x = r\cdot{cos(\alpha)}}"><br>
 <img src="https://render.githubusercontent.com/render/math?math=\color{gray}{y = r\cdot{sin(\alpha)}}"><br>
