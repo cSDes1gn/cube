@@ -8,13 +8,13 @@ Modified: 2021-04
 
 This is a demonstration of using 2 dimensional cartesian and trigonometric analysis to render computer graphics in 3D space.
 ## Quickstart
-Install node packages:
+Install node packages. I am using `parcel` to render the static page and perform typescript transpilation:
 ```bash
 npm i
 ```
 Start the server:
 ```bash
-npm run start
+npm run serve 
 ```
 
 ## Theory
