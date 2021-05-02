@@ -67,5 +67,113 @@ export const nodes = [
         x: wo_x+spacing,
         y: wo_y+spacing,
         z: 0
+    },
+    <Node> {
+        el: 'd10',
+        x: wo_x-spacing,
+        y: wo_y-spacing,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd11',
+        x: wo_x,
+        y: wo_y-spacing,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd12',
+        x: wo_x+spacing,
+        y: wo_y-spacing,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd13',
+        x: wo_x-spacing,
+        y: wo_y,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd14',
+        x: wo_x,
+        y: wo_y,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd15',
+        x: wo_x+spacing,
+        y: wo_y,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd16',
+        x: wo_x-spacing,
+        y: wo_y+spacing,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd17',
+        x: wo_x,
+        y: wo_y+spacing,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd18',
+        x: wo_x+spacing,
+        y: wo_y+spacing,
+        z: -spacing
+    },
+    <Node> {
+        el: 'd19',
+        x: wo_x-spacing,
+        y: wo_y-spacing,
+        z: spacing
+    },
+    <Node> {
+        el: 'd20',
+        x: wo_x,
+        y: wo_y-spacing,
+        z: spacing
+    },
+    <Node> {
+        el: 'd21',
+        x: wo_x+spacing,
+        y: wo_y-spacing,
+        z: spacing
+    },
+    <Node> {
+        el: 'd22',
+        x: wo_x-spacing,
+        y: wo_y,
+        z: spacing
+    },
+    <Node> {
+        el: 'd23',
+        x: wo_x,
+        y: wo_y,
+        z: spacing
+    },
+    <Node> {
+        el: 'd24',
+        x: wo_x+spacing,
+        y: wo_y,
+        z: spacing
+    },
+    <Node> {
+        el: 'd25',
+        x: wo_x-spacing,
+        y: wo_y+spacing,
+        z: spacing
+    },
+    <Node> {
+        el: 'd26',
+        x: wo_x,
+        y: wo_y+spacing,
+        z: spacing
+    },
+    <Node> {
+        el: 'd27',
+        x: wo_x+spacing,
+        y: wo_y+spacing,
+        z: spacing
     }
 ];
